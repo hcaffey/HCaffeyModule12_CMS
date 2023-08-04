@@ -43,12 +43,13 @@ function init() {
       case 'view employees':
         viewEmployees();
         break;
-      case 'add department':
-        addDepartment();
-        break;
+      //case 'add department':
+        //addDepartment();
+        //break;
     }
   });
 }
+//add dept doesnt exist yet
 
 function viewDepartments() {
   db.query('SELECT * FROM department', (err, results) => {
