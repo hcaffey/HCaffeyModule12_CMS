@@ -15,4 +15,4 @@ INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES ("Steve", "Johnson", 1, 1),
        ("Steve", "Johnson", 2, 2),
        ("Steve", "Johnson", 3, 3),
-       ("SXXXX", "JXXXXXX", 0, 0),
+       ("SXXXX", "JXXXXXX", 0, 0);
